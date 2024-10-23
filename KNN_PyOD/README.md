@@ -1,5 +1,5 @@
 PyOD (Python Outlier Detection) is a comprehensive library designed for detecting outliers in multivariate data. Below is a simple example demonstrating how to use PyOD for outlier detection using the k-Nearest Neighbors (KNN) algorithm. 
-### Visualize the results sample (KNN_PyOD.py)
+### Visualize the results sample (KNN_PyOD)
 <img src='outliers_knn.png'>
 ### Explanation
 1. **Import Libraries**: The code imports necessary libraries, including NumPy for numerical operations, Matplotlib for plotting, and PyOD for outlier detection.
