@@ -28,3 +28,20 @@ evaluate_print('IForest on the Test data :', y_test, y_test_scores)
 
 # Visualize the results :
 visualize('IForest', X_train, y_train, X_test, y_test, y_train_pred, y_test_pred)
+
+# Confusion matrix
+from sklearn.metrics import confusion_matrix
+print(confusion_matrix(y_test, y_test_pred))
+#  Output :
+    # [[180   0]
+    # [  3  17]]
+
+    #     A **confusion matrix** is a table used to evaluate the performance of a classification model by comparing its predicted values with the actual values. It provides a breakdown of the correct and incorrect predictions, allowing for a more granular understanding of how well the model is performing.
+
+    # ### Structure of a Confusion Matrix
+    # For a binary classification problem, a confusion matrix typically has four values:
+
+    # |                | Predicted Positive | Predicted Negative |
+    # |----------------|--------------------|--------------------|
+    # | **Actual Positive** | True Positive (TP)      | False Negative (FN)     |
+    # | **Actual Negative** | False Positive (FP)     | True Negative (TN)      |
